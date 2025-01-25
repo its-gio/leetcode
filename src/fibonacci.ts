@@ -1,3 +1,4 @@
+// Takes a number and returns the number at that index of the Fibonacci sequence
 // Memoization
 export const fibonacci = function (num: number, cache: number[]): number {
   cache = cache;

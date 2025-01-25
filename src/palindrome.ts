@@ -1,3 +1,5 @@
+// Palindrome: A palindrome is a string that reads the same forward and backward.
+// Using two pointer
 function palindrome(item: string): boolean {
   const splitItem = item.split("");
   let left = 0;

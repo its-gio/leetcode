@@ -1,3 +1,4 @@
+// Max Char in a string
 function maxChar(item: string): string {
   const counts = item.split("").reduce(
     (acc: any, curr) => {
@@ -15,4 +16,5 @@ function maxChar(item: string): string {
 
 console.log(maxChar("abcccd")); // c
 console.log(maxChar("apple 1111")); // 1
+// TODO: Create a function for multiple highest numbers
 // console.log(maxChar("noon"));

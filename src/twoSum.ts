@@ -1,4 +1,5 @@
-// Two point
+// Two Sum problem checks to see if there are two numbers that add up to a specific target.
+// Using Two Point
 export const twoSum = function (
   nums: number[],
   target: number
